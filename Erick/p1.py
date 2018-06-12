@@ -22,5 +22,14 @@ def validacionEnteros(mensaje):
             print("Solo se puede introducir números enteros")
     return num
 
-piramidefor()
-piramidewhile()
+def suma():
+	resultado = 0
+	while resultado<10:
+		x = validacionEnteros("Introduce el primer numero")
+		y = validacionEnteros("Intriduce el segundo número")
+		resultado = x+y
+		print("La suma de ambos numeros es %d" % resultado)
+
+
+
+	
