@@ -21,6 +21,11 @@ class Student:
 
         return sum(cal)/len(cal)
 
+    def realAverage(self):
+        cal=[]
+        for i in range(0,len(self.Subjects),1):
+            cal.append(self.Subjects[i].score)
+        return sum(cal)/len(cal)
 
     #def print_details(self):
         #print(f'name: {self.name}')
