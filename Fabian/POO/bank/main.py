@@ -19,6 +19,7 @@ def main():
         print('Inserta la opcion deseada:')
         print('a) Depositar')
         print('b) Retirar')
+        print('c) Mostrar saldo')
         print('cualquier tecla) SAlIR')
         option=input('...')
         if (option=='a'):
@@ -31,6 +32,8 @@ def main():
                 print(f'Tu saldo es de ${bankAccount1.balance}')
             else:
                 print(f'Tu saldo es de ${bankAccount1.withdraw(amount)}')
+        elif(option=='c'):
+            print(f'Tu saldo es de ${bankAccount1.balance}')
         else:
             break
 
